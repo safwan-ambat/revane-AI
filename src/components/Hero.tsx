@@ -31,7 +31,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.1 }}
           className="text-6xl md:text-8xl font-medium tracking-tight leading-[1.1] py-4"
         >
-          <div className="self-stretch text-center text-[60px] italic font-medium leading-[72px] break-words" style={{ color: '#FCFAF7', fontFamily: 'Test Tiempos Text' }}>Close faster</div>
+          <div className="self-stretch text-center text-[60px] italic font-medium leading-[72px] break-words" style={{ color: '#FCFAF7', fontFamily: 'Test Tiempos Text' }}> faster</div>
           <div className="self-stretch text-center text-[60px] font-medium leading-[76px] break-words" style={{ color: '#FCFAF7', fontFamily: 'Inter' }}>
             Report confidently
           </div>
