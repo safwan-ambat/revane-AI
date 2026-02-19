@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen pt-[132px] pb-20 overflow-hidden flex flex-col items-center justify-start text-center px-4">
+    <section className="relative min-h-screen pt-[132px]  overflow-hidden flex flex-col items-center justify-start text-center px-4">
       {/* Dynamic Background Lighting */}
       <img src="/src/assets/images/gradient01.svg" className="absolute top-0 left-0  z-0 pointer-events-none" alt="" />
       <img src="/src/assets/images/gradient 02.svg" className="absolute bottom-0 right-0 z-0 pointer-events-none" alt="" />
