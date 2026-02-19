@@ -1,12 +1,16 @@
 import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
+import gradient01 from '../assets/images/gradient01.svg';
+import gradient02 from '../assets/images/gradient 02.svg';
+import heroImg01 from '../assets/images/heroImg01.svg';
+import heroImg02 from '../assets/images/heroImg02.png';
 
 export function Hero() {
   return (
     <section className="relative min-h-screen pt-[132px]  overflow-hidden flex flex-col items-center justify-start text-center px-4">
       {/* Dynamic Background Lighting */}
-      <img src="/src/assets/images/gradient01.svg" className="absolute top-0 left-0  z-0 pointer-events-none" alt="" />
-      <img src="/src/assets/images/gradient 02.svg" className="absolute bottom-0 right-0 z-0 pointer-events-none" alt="" />
+      <img src={gradient01} className="absolute top-0 left-0  z-0 pointer-events-none" alt="" />
+      <img src={gradient02} className="absolute bottom-0 right-0 z-0 pointer-events-none" alt="" />
 
       {/* Hero Content */}
       <div className="max-w-5xl mx-auto  z-10">
@@ -80,12 +84,12 @@ export function Hero() {
       {/* Hero Image */}
       <div className="relative w-full max-w-[1344px] mx-auto mt-[84px] px-4 z-10 relative ">
         <img
-          src="/src/assets/images/heroImg01.svg"
+          src={heroImg01}
           alt="Rivane dashboard preview"
           className="w-full rounded-2xl relative z-10 "
         />
         <img
-          src="/src/assets/images/heroImg02.png"
+          src={heroImg02}
           alt="Rivane dashboard detail"
           className="w-[31%]  absolute z-0 top-0 left-[51.7%] -translate-x-1/2"
         />

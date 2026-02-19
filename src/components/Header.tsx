@@ -1,5 +1,6 @@
 import React from 'react';
 import { Menu, ChevronDown } from 'lucide-react';
+import logoSrc from '../assets/images/Logo.svg';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = React.useState(false);
@@ -23,7 +24,7 @@ export function Header() {
           {/* Logo Placeholder */}
           <div className="flex items-center gap-2">
             <img
-              src="/src/assets/images/Logo.svg"
+              src={logoSrc}
               alt="Revane logo"
               className="h-8 w-auto"
             />
